@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FichaController;
 use App\Http\Controllers\AprendizController;
+use App\Http\Controllers\InstructorController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,5 +22,5 @@ Route::get('/', function () {
 
 
 Route::resource('ficha', FichaController::class);
-
 Route::resource('aprendiz', AprendizController::class);
+Route::resource('instructor', InstructorController::class);

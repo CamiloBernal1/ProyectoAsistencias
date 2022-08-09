@@ -1,13 +1,15 @@
 aqui va la lista de aprendices
 
-<a href="{{ url('aprendiz/create') }}"> Registrar nuevo aprendiz >< </a>
+<a href="{{ url('aprendiz/create') }}"> 
+    Registrar nuevo aprendiz >< 
+</a>
 
 <table class="table table-light">
     <thead class="thead-dark">
         <tr>
             <th>#</th>
             <th>Nombre</th>
-            <th>Aprellido</th>
+            <th>Apellido</th>
             <th>Tipo de documento</th>
             <th>Número de documento</th>
             <th>Correo Misena</th>
